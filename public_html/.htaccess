@@ -1,0 +1,10 @@
+# Header add Access-Control-Allow-Origin http://localhost:3000
+# Header add Access-Control-Allow-Methods *
+# Header add Access-Control-Allow-Headers "Content-Type, Authorization"
+
+Options -Indexes
+AddDefaultCharset UTF-8;
+
+<FilesMatch "\.(data)$">
+Deny from all
+</FilesMatch>
