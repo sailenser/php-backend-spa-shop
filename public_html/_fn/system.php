@@ -27,6 +27,7 @@
 		if (isset($_SERVER['HTTP_ORIGIN']) && 
 			($_SERVER['HTTP_ORIGIN'] === 'http://localhost:5174' ||
             $_SERVER['HTTP_ORIGIN'] === 'http://localhost:5175' ||
+            $_SERVER['HTTP_ORIGIN'] === 'https://store-spa.fronterbest.ru' ||
 			$_SERVER['HTTP_ORIGIN'] === 'http://localhost:8080' ||
 			$_SERVER['HTTP_ORIGIN'] === 'http://localhost:8081' ||
 			$_SERVER['HTTP_ORIGIN'] === 'https://localhost:3000' ||
